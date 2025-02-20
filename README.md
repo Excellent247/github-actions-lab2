@@ -15,3 +15,10 @@ The Set up Python step should install python-version 3.10, 3.11, 3.12
 Use py-version as the key to define these python-version within the matrix.
 Modify the job and step to make use of these matrix values.
 Push and trigger the workflow.
+
+
+Continue work on the Repository named - github-actions-lab2
+Configure matrix strategy to exclude below combinations:
+
+os: macos-14
+py-version: 3.12
